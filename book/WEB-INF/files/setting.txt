@@ -1,0 +1,5 @@
+a=aaa
+B=bbb
+C="ヒポポタマス"
+debug =yes
+memory=65536

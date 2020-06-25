@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Type" charset="UTF-8" />
+<title>Servlet/JSP Samples</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" href="../base.css" type="text/css" media="screen" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div id="header-inner">
+            <!-- キーワード -->
+            <h1>テスト購入サイト</h1>
+            <!-- ページの概要 -->
+            <p class="description">てすとです</p>
+            <!-- 企業名｜ショップ名｜タイトル -->
+            <p class="logo"><a href="index.html">サンプル商事｜心斎橋東店｜テスト購入サイト</a></p>
+            </div>
+        </div>
+    <!-- // header end -->
+
+        <div id="container">
+            <div id="contents">
+                <div id="contents-inner">
+                <!-- コンテンツここから -->
+
+                <form action="../char6/select" method="post">
+                <h2>購入数を選択してください</h2>
+                <p>
+                <select name="count">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                </p>
+                <br>
+
+                <h2>購入方法を選択してください</h2>
+                <p>
+                <input type="radio" name="payment" value="カード" checked>カード
+                <input type="radio" name="payment" value="代金引換">代金引換
+                <input type="radio" name="payment" value="銀行振り込み">銀行振り込み
+                <input type="radio" name="payment" value="コンビニ">コンビニ
+                </p>
+                <br>
+
+                <h2>ご感想</h2>
+                <p><textarea name="review" cols="30" rows="5">商品名：</textarea></p>
+                <br>
+
+                <h2>メール希望</h2>
+                <p><input type="checkbox" name="mail">メール受信する</p>
+                <br>
+
+                <h2>お買い得情報を受け取るジャンルをお選びください</h2>
+                <p><input type="checkbox" name="genre" value="家電" checked>家電</p>
+                <p><input type="checkbox" name="genre" value="玩具">玩具</p>
+                <p><input type="checkbox" name="genre" value="時計">時計</p>
+                <p><input type="checkbox" name="genre" value="書籍">書籍</p>
+                <br>
+
+                <p><input type="submit" value="　確定　"></p>
+
+                </form>
+
+                <!-- コンテンツここまで -->
+                </div><!-- // contents-inner end -->
+            </div><!-- // contents end -->
+
+            <div id="left-sidebar">
+            <!-- 左サイドバーここから -->
+
+            <p class="side-title">作成済サンプル</p>
+            <ul class="localnavi">
+            <li><a href="../html/char5_input.html">char5_input.html</a></li>
+            <li><a href="#">*** リンク ***</a></li>
+            <li><a href="#">*** リンク ***</a></li>
+            <li><a href="#">*** リンク ***</a></li>
+            <li><a href="#">*** リンク ***</a></li>
+            </ul>
+
+            <dl class="sidebar-dl">
+            <dt>更新履歴</dt>
+            <dd>
+            <p>2017/12/30 新規作成</p>
+            </dd>
+            </dl>
+            <!--左サイドバーここまで-->
+            </div><!-- // left-sidebar end -->
+        </div><!-- // container end -->
+
+    <!-- ↓削除不可 -->
+    <p id="cds">Designed by <a href="http://www.css-designsample.com/">CSS.Design Sample</a></p>
+
+    </div>
+</body>
+</html>
