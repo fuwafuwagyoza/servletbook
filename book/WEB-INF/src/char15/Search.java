@@ -37,7 +37,7 @@ public class Search extends HttpServlet {
 			        out.println("<br>");
 			    }
 			}
-			out.println("※1000円以上は★がつくのである");
+			out.println("※1000円以上は★がつくのでありんす");
 			
 		} catch (Exception e) {
 			e.printStackTrace(out);
