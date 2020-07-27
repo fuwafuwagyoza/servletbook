@@ -5,6 +5,6 @@
         <h2>検索ワードを入力してください</h2>
         <form action="../char15/search" method="post">
         <input type="text" name="word">
-        <input type="submit" value="検索">
+        <input type="submit" value="検索ぅ！">
         </form>
 <%@include file="footer.jsp" %>
