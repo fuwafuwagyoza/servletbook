@@ -47,7 +47,7 @@ public class Search_2 extends HttpServlet {
 				e.printStackTrace(out);
 			}
 		} else {
-			out.println("金額を入力してください");
+			out.println("金額を入力してください!");
 		}
 
 		Page.cssfooter(out);
