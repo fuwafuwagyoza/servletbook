@@ -2,25 +2,25 @@
 
 /* -------------------------------------------------------------
 
-[1] ƒŒƒCƒAƒEƒg‚ÉŠÖ‚·‚éŽw’è
-[2] ƒwƒbƒ_[ƒuƒƒbƒN“à‚ÉŠÖ‚·‚éŽw’è
-[3] ƒRƒ“ƒeƒ“ƒcƒuƒƒbƒN“à‚ÉŠÖ‚·‚éŽw’è
-[4] ƒTƒCƒhƒo[ƒuƒƒbƒN“à‚ÉŠÖ‚·‚éŽw’è
-[5] ƒtƒbƒ^[ƒuƒƒbƒN“à‚ÉŠÖ‚·‚éŽw’è
-[6] CSSƒfƒUƒCƒ“ƒTƒ“ƒvƒ‹ƒŠƒ“ƒNŽw’è
+[1] ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆã«é–¢ã™ã‚‹æŒ‡å®š
+[2] ãƒ˜ãƒƒãƒ€ãƒ¼ãƒ–ãƒ­ãƒƒã‚¯å†…ã«é–¢ã™ã‚‹æŒ‡å®š
+[3] ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ãƒ–ãƒ­ãƒƒã‚¯å†…ã«é–¢ã™ã‚‹æŒ‡å®š
+[4] ã‚µã‚¤ãƒ‰ãƒãƒ¼ãƒ–ãƒ­ãƒƒã‚¯å†…ã«é–¢ã™ã‚‹æŒ‡å®š
+[5] ãƒ•ãƒƒã‚¿ãƒ¼ãƒ–ãƒ­ãƒƒã‚¯å†…ã«é–¢ã™ã‚‹æŒ‡å®š
+[6] CSSãƒ‡ã‚¶ã‚¤ãƒ³ã‚µãƒ³ãƒ—ãƒ«ãƒªãƒ³ã‚¯æŒ‡å®š
 
 ----------------------------------------------------------------
-CSSƒfƒUƒCƒ“ƒTƒ“ƒv [ URL ] http://www.css-designsample.com
+CSSãƒ‡ã‚¶ã‚¤ãƒ³ã‚µãƒ³ãƒ— [ URL ] http://www.css-designsample.com
 ------------------------------------------------------------- */
 
 
-/* ˆêŠ‡‚Å‘S‚Ä‚Ì—v‘f‚Ì—]”’‚ðƒ[ƒ‚ÉŽw’è */
+/* ä¸€æ‹¬ã§å…¨ã¦ã®è¦ç´ ã®ä½™ç™½ã‚’ã‚¼ãƒ­ã«æŒ‡å®š */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* ‘S‘Ì“I‚ÈƒŠƒ“ƒN */
+/* å…¨ä½“çš„ãªãƒªãƒ³ã‚¯ */
 
 a:link,
 a:visited,
@@ -33,12 +33,12 @@ a:hover { color: #f00; }
 a:active { color: #f00; }
 
 /* -------------------------------------------------------------
-   [1] ƒŒƒCƒAƒEƒg‚ÉŠÖ‚·‚éŽw’è */
+   [1] ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆã«é–¢ã™ã‚‹æŒ‡å®š */
 
 body {
   font-size: 85%;
   text-align: center;
-  font-family: "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "‚l‚r ‚oƒSƒVƒbƒN", "MS PGothic", sans-serif;
+  font-family: "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "MS PGothic", sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -89,9 +89,9 @@ body {
 #footer { }
 
 /* -------------------------------------------------------------
-   [2] ƒwƒbƒ_[ƒuƒƒbƒN“à‚ÉŠÖ‚·‚éŽw’è */
+   [2] ãƒ˜ãƒƒãƒ€ãƒ¼ãƒ–ãƒ­ãƒƒã‚¯å†…ã«é–¢ã™ã‚‹æŒ‡å®š */
 
-/* ƒL[ƒ[ƒh */
+/* ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ */
 h1 {
   font-size: 100%;
   font-weight: normal;
@@ -100,7 +100,7 @@ h1 {
   color: #69f;
 }
 
-/* Šé‹Æ–¼bƒVƒ‡ƒbƒv–¼bƒ^ƒCƒgƒ‹ */
+/* ä¼æ¥­åï½œã‚·ãƒ§ãƒƒãƒ—åï½œã‚¿ã‚¤ãƒˆãƒ« */
 .logo {
   font-size: 160%;
   font-weight: bold;
@@ -118,7 +118,7 @@ h1 {
   color: #f00;
 }
 
-/* ƒy[ƒW‚ÌŠT—v */
+/* ãƒšãƒ¼ã‚¸ã®æ¦‚è¦ */
 .description {
   margin-bottom: 20px;
   padding-left: 240px;
@@ -126,8 +126,8 @@ h1 {
 }
 
 /* -------------------------------------------------------------
-   [3] ƒRƒ“ƒeƒ“ƒcƒuƒƒbƒN“à‚ÉŠÖ‚·‚éŽw’è */
-/* -- Œ©o‚µ -- */
+   [3] ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ãƒ–ãƒ­ãƒƒã‚¯å†…ã«é–¢ã™ã‚‹æŒ‡å®š */
+/* -- è¦‹å‡ºã— -- */
 h2,h3,h4,h5,h6 {
   font-size: 120%;
   margin-bottom: 0.5em;
@@ -139,23 +139,23 @@ h2,h3,h4,h5,h6 {
 
 h3,h4,h5,h6 { margin-top: 3em; }
 
-/* -- •¶Žš -- */
+/* -- æ–‡å­— -- */
 #contents p {
   line-height: 1.6em;
   margin-bottom: 0.5em;
 }
 
 /* -------------------------------------------------------------
-   [4] ƒTƒCƒhƒo[ƒuƒƒbƒN“à‚ÉŠÖ‚·‚éŽw’è */
+   [4] ã‚µã‚¤ãƒ‰ãƒãƒ¼ãƒ–ãƒ­ãƒƒã‚¯å†…ã«é–¢ã™ã‚‹æŒ‡å®š */
 
-/* -- ƒTƒCƒhƒo[ƒ^ƒCƒgƒ‹ -- */
+/* -- ã‚µã‚¤ãƒ‰ãƒãƒ¼ã‚¿ã‚¤ãƒˆãƒ« -- */
 .side-title {
   font-weight: bold;
   padding-bottom: 2px;
   color: #fff;
 }
 
-/* -- ƒŠƒXƒg/ƒTƒCƒhƒo[ƒƒjƒ…[ -- */
+/* -- ãƒªã‚¹ãƒˆ/ã‚µã‚¤ãƒ‰ãƒãƒ¼ãƒ¡ãƒ‹ãƒ¥ãƒ¼ -- */
 .localnavi {
   list-style-type: none;
   margin-bottom: 20px;
@@ -218,7 +218,7 @@ h3,h4,h5,h6 { margin-top: 3em; }
 }
 
 /* -------------------------------------------------------------
-   [5] ƒtƒbƒ^[ƒuƒƒbƒN“à‚ÉŠÖ‚·‚éŽw’è */
+   [5] ãƒ•ãƒƒã‚¿ãƒ¼ãƒ–ãƒ­ãƒƒã‚¯å†…ã«é–¢ã™ã‚‹æŒ‡å®š */
 
 #footer p {
   text-align: center;
@@ -226,7 +226,7 @@ h3,h4,h5,h6 { margin-top: 3em; }
 }
 
 /* -------------------------------------------------------------
-   [6] CSSƒfƒUƒCƒ“ƒTƒ“ƒvƒ‹ƒŠƒ“ƒNŽw’è */
+   [6] CSSãƒ‡ã‚¶ã‚¤ãƒ³ã‚µãƒ³ãƒ—ãƒ«ãƒªãƒ³ã‚¯æŒ‡å®š */
 
 #cds {
   font-size: 80%;
