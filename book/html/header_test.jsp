@@ -9,7 +9,7 @@
 <title>Servlet/JSP Samples</title>
 <meta name="description" content="" />
 <meta name="keywords" content="" />
-<link rel="stylesheet" href="../base.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="base.css" type="text/css" media="screen" />
 <!-- デバッグ用 -->
 <meta name="Content-Style-Type" content="text/css">
 <img src="../img/bg-header.jpg" alt="test" title="test">
