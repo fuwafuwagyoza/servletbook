@@ -10,7 +10,10 @@
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 <link rel="stylesheet" href="../base.css" type="text/css" media="screen" />
+<!-- デバッグ用 -->
+<meta name="Content-Style-Type" content="text/css">
 <img src="../img/bg-header.jpg" alt="test" title="test">
+<!-- デバッグ用 -->
 </head>
 <body>
     <div id="wrapper">
@@ -18,6 +21,9 @@
             <div id="header-inner">
             <!-- キーワード -->
             <h1>テスト購入サイト</h1>
+<!-- デバッグ用 -->
+<p style="color:blue; line-height:1.5;">段落となります。</p>
+<!-- デバッグ用 -->
             <!-- ページの概要 -->
             <p class="description">てすとです</p>
             <!-- 企業名｜ショップ名｜タイトル -->
