@@ -14,8 +14,10 @@ public class EncodingFilter implements Filter {
 	public void doFilter (ServletRequest request, 
 	ServletResponse response, FilterChain chain) 
 	throws IOException, ServletException {
+		/* 2020/08/24 CSSが効かなくなってしまうため、この設定をコメントアウト */
 		// MIMEタイプ、文字コードの設定
-		response.setContentType("text/html; charset=UTF-8");
+		//response.setContentType("text/html; charset=UTF-8");
+		/* 2020/08/24 CSSが効かなくなってしまうため、この設定をコメントアウト */
 		request.setCharacterEncoding("UTF-8");
 //		System.out.println("フィルタ前処理");
 
