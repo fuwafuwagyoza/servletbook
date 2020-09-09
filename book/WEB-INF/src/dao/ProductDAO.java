@@ -61,7 +61,7 @@ public class ProductDAO extends DAO {
 		int id;
 		
 		// sql文を設定
-		String MaxIdStr = "SELECT MAX(to_number(ID))+1 AS ID FROM PRODUCT";
+		String MaxIdStr = "SELECT MAX(to_number(ID))+1 AS ID FROM product";
 		
 		// sql実行
 		PreparedStatement SelSt = con.prepareStatement(MaxIdStr);
