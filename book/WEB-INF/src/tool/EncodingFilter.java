@@ -18,6 +18,9 @@ public class EncodingFilter implements Filter {
 		// MIMEタイプ、文字コードの設定
 		//response.setContentType("text/html; charset=UTF-8");
 		/* 2020/08/24 CSSが効かなくなってしまうため、この設定をコメントアウト */
+		/* 2020/10/04 上記削除で文字化けするためエンコーディング設定追加 */
+		response.setCharacterEncoding("UTF-8");
+		/* 2020/10/04 上記削除で文字化けするためエンコーディング設定追加 */
 		request.setCharacterEncoding("UTF-8");
 //		System.out.println("フィルタ前処理");
 
