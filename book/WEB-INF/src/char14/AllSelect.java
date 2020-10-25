@@ -19,7 +19,7 @@ public class AllSelect extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		Page.cssheader(out);
 		
-		String sqlStr = "SELECT * FROM PRODUCT";
+		String sqlStr = "SELECT * FROM product";
 		
 		try {
 			InitialContext ic = new InitialContext();

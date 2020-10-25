@@ -17,7 +17,7 @@ public class Search_2 extends HttpServlet {
 	HttpServletResponse response) throws ServletException, 
 	IOException {
 		PrintWriter out = response.getWriter();
-		String sqlStr = "SELECT * FROM PRODUCT WHERE PRICE <= ? ";
+		String sqlStr = "SELECT * FROM product WHERE PRICE <= ? ";
 
 		Page.cssheader(out);
 		if ((request.getParameter("price")).length() != 0) {

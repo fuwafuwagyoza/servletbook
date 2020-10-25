@@ -19,8 +19,8 @@ public class Insert extends HttpServlet {
 		PrintWriter out = response.getWriter();
 
 		// sql文
-		String InsertStr = "INSERT INTO PRODUCT VALUES (?, ?, ?)";
-		String MaxIdStr = "SELECT MAX(ID)+1 AS ID FROM PRODUCT";
+		String InsertStr = "INSERT INTO product VALUES (?, ?, ?)";
+		String MaxIdStr = "SELECT MAX(ID)+1 AS ID FROM product";
 
 		// パラメータの取得
 		String name = request.getParameter("name");

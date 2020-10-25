@@ -20,9 +20,9 @@ public class Transaction extends HttpServlet {
 		ResultSet result = null;
 
 		// sql文
-		String InsertStr = "INSERT INTO PRODUCT VALUES (?, ?, ?)";
-		String SelectStr = "SELECT Name FROM PRODUCT Where Name = ?";
-		String MaxIdStr = "SELECT MAX(ID)+1 AS ID FROM PRODUCT";
+		String InsertStr = "INSERT INTO product VALUES (?, ?, ?)";
+		String SelectStr = "SELECT Name FROM product Where Name = ?";
+		String MaxIdStr = "SELECT MAX(ID)+1 AS ID FROM product";
 
 		// パラメータの取得
 		String name = request.getParameter("name");

@@ -17,7 +17,7 @@ public class Search extends HttpServlet {
 	HttpServletResponse response) throws ServletException, 
 	IOException {
 		PrintWriter out = response.getWriter();
-		String sqlStr = "SELECT * FROM PRODUCT WHERE NAME LIKE \'%?%\'";
+		String sqlStr = "SELECT * FROM product WHERE NAME LIKE \'%?%\'";
 		String word = request.getParameter("word");
 
 		Page.cssheader(out);
@@ -54,7 +54,7 @@ public class Search extends HttpServlet {
 	HttpServletResponse response) throws ServletException, 
 	IOException {
 		PrintWriter out = response.getWriter();
-		String sqlStr = "SELECT * FROM PRODUCT WHERE NAME like ? ";
+		String sqlStr = "SELECT * FROM product WHERE NAME like ? ";
 		String word = request.getParameter("word");
 
 		Page.cssheader(out);
